@@ -286,4 +286,4 @@ if __name__ == "__main__":
     parser.add_argument("--anom-thresh", dest="anom_thresh", type=float, default=450.0, help="Anomaly Laplacian variance threshold (tune)")
     args = parser.parse_args()
     main(args)
-
+print("git is working now 1")
